@@ -1,0 +1,93 @@
+.Header{
+    font-size: 2rem;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 2rem;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    background-color: rgba(223, 231, 231, 0.881);
+}
+
+#form-List{
+    border: 2px solid black;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 1.5rem; 
+
+}
+
+#Address{
+    /* padding-bottom: 10px; */
+    border-radius: 10px;
+    border: none;
+}
+
+label{
+    text-align: left;
+    /* padding: 10px 10px; */
+    padding-top: 10px;
+
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+}
+
+.items{
+    display: flex;
+    /* margin: 10px; */
+}
+
+button{
+    margin-top: 10px;
+   border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.displayoutput{
+
+    margin: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* height: 80vh; */
+    border: 2px solid black;
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    /* padding: 1rem;  */
+    /* background-color: rgba(223, 231, 231, 0.881); */
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="form.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+    <div>
+    <header class="Header">
+        Registration Form
+    </header>
+
+    <form id="form-List"  >
+        <div class="items">
+
+        <label for="firstname">First Name
+        <div class="box">
+        <input type="text" id="firstname"  
+        placeholder="Enter your first name"/> 
+        <span
+        id="firstname-error"
+        class="error-message"></span> 
+
+      </div>
+     </label>      
+
+        <label for="lastname">Last Name
+        <div class="box">
+        <input type="text" id="lastname" 
+        placeholder="Enter your last name"/> 
+        <span
+        id="lastname-error"
+        class="error-message"
+    ></span>
+        </div>
+    </label>
+    </div>
+
+       
+
+        <label for="email">Email
+        <div class="box">
+        <input type="text" id="email"  
+        placeholder="Enter your email"/> 
+        <span
+                    id="email-error"
+                    class="error-message"
+                ></span>
+
+       
+        </div>
+    </label>
+
+    <label for="DOB">DOB
+        <div class="box">
+        <input type="date" id="DOB" 
+        placeholder="Enter your Date-of-Birth"/> 
+        <span
+                    id="DOB-error"
+                    class="error-message"
+      ></span>
+
+        </div>
+
+    </label>
+<!-- pattern="[789][0-9]{9}" -->
+        <label for="phone">Phone
+        <div class="box">
+        <input type="text" id="phone"  
+         placeholder="Enter your mobile Number"/> 
+        <span
+                    id="phone-error"
+                    class="error-message"
+                ></span>
+
+        </div>
+    </label>
+
+    <label for="Address">Address
+        <!-- <input type="text" id="Address"/> -->
+        <div class="box">
+          <textarea id="Address" 
+          placeholder="Enter your address"></textarea> 
+          <span
+                    id="address-error"
+                    class="error-message"
+                ></span>
+
+        </div>
+    </label>
+    <label for="city">City
+        <div class="box">
+        <input type="text" id="city" 
+        placeholder="Enter your City"/>  
+        <span
+        id="city-error"
+        class="error-message"
+      ></span>
+
+        </div>
+    </label>
+
+    <label for="state">State
+        <div class="box">
+        <input type="text" id="state" 
+        placeholder="Enter your State" /> 
+        <span
+        id="state-error"
+        class="error-message"
+     ></span>
+
+        </div>
+    </label>
+
+        <!-- <label for="Gender">Gender</label>
+        <input type="radio" id="Female" value="Female" name="fav_language"/>
+        <label for="Female">Female</label><br>
+        <input type="radio" id="male" value="Male" name="fav_language"/>
+        <label for="male">Male</label><br>
+        <span
+        id="gender-error"
+        class="error-message"
+    ></span> -->
+
+        <input type="submit" value = "Submit" id="output" class="displayoutput"/>
+
+        <input type="reset" value="Reset" name="Reset"/>
+        <!-- <input type="button" value="Output"> -->
+
+    </form>
+</div> 
+
+<!-- <div id="output"></div> -->
+
+<!-- <div id="displayoutput">
+    <p id="output">Enter Details Below</p>
+    <p id="output1"></p>
+    <p id="output2"></p>
+    <p id="output3"></p>
+    <p id="output4"></p>
+    <p id="output5"></p>
+    <p id="output6"></p>
+    <p id="output7"></p>
+    <p id="output8"></p>
+</div> -->
+
+<script src="form.js"></script>
+
+</body>
+</html>
